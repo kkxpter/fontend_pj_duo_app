@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722230081466",
+    "project_id": "pj-web-kop",
+    "storage_bucket": "pj-web-kop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722230081466:android:cba9092d9967df90ce4f83",
+        "android_client_info": {
+          "package_name": "com.example.flutter_utilities2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvc-9EHAzl171uwft9NgxZFkbcjelWnEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
