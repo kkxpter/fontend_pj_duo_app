@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'dart:io'; // สำหรับการจัดการไฟล์รูปภาพ
 import 'package:flutter/material.dart';
 import 'package:flutter_utilities2/config/config.dart';
-import 'package:flutter_utilities2/models/register_req.dart';
+import 'package:flutter_utilities2/models/register_user_req.dart';
 import 'package:flutter_utilities2/pages/gps.dart';
 import 'package:flutter_utilities2/pages/login_user.dart';
 import 'package:flutter_utilities2/pages/login_user.dart';

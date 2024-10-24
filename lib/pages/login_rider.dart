@@ -2,7 +2,6 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_utilities2/pages/main_rider.dart';
 import 'package:flutter_utilities2/pages/regis_rider.dart';
-import 'package:flutter_utilities2/pages/register.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LoginRider extends StatefulWidget {
