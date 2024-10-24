@@ -139,7 +139,7 @@ class _RegisUser extends State<RegisUser> {
 
             // ส่งข้อมูลไปยัง API
             final dataPOST = await http.post(
-              Uri.parse("$url/user/insert"),
+              Uri.parse("$url/user/register"),
               headers: {"Content-Type": "application/json"},
               body: registerRequstToJson(model),
             );
@@ -250,7 +250,9 @@ class _RegisUser extends State<RegisUser> {
 
             // ชื่อผู้ใช้
             _buildLabel('ชื่อผู้ใช้'),
-            _buildTextField('กรอกชื่อผู้ใช้', TextInputType.name,controller:  _nameController),
+            _buildTextField('กรอกชื่อผู้ใช้',
+             TextInputType.name,
+             controller:  _nameController),
             const SizedBox(height: 20),
 
             // รหัสผ่าน
@@ -275,7 +277,8 @@ class _RegisUser extends State<RegisUser> {
 
             // เบอร์โทรศัพท์
             _buildLabel('เบอร์โทรศัพท์'),
-            _buildTextField('กรอกเบอร์โทรศัพท์', TextInputType.phone,controller:  _phoneController),
+            _buildTextField('กรอกเบอร์โทรศัพท์', TextInputType.phone,
+            controller:  _phoneController),
             const SizedBox(height: 20),
 
             // ที่อยู่
